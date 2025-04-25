@@ -11,8 +11,10 @@
     "middleware": "nodemon \"./2. Middleware/index.js\"",
     "routes": "nodemon \"./3. Handling Routes/index.js\"",
     "parsing": "nodemon \"./4. Parsing Requests/index.js\"",
-    "limiting": "nodemon \"./5. Limiting http verbs/index.js\"",
-    "router": "nodemon \"./6. Express Router/index.js\""
+    "limiting": "nodemon \"./5. Limiting Http Verbs/index.js\"",
+    "router": "nodemon \"./6. Express Router/index.js\"",
+    "filtering": "nodemon \"./7. Filtering Paths/index.js\"",
+    "servingHTML": "nodemon \"./8. Serving HTML Pages/index.js\""
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
