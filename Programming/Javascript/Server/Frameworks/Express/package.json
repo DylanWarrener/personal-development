@@ -7,13 +7,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "start-server": "nodemon index.js"
+    "express": "nodemon \"./1. Configuring Express/index.js\"",
+    "middleware": "nodemon \"./2. Middleware/index.js\"",
+    "routes": "nodemon \"./3. Handling Routes/index.js\"",
+    "parsing": "nodemon \"./4. Parsing Requests/index.js\"",
+    "limiting": "nodemon \"./5. Limiting http verbs/index.js\"",
+    "router": "nodemon \"./6. Express Router/index.js\""
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
   },
   "dependencies": {
+    "body-parser": "^2.2.0",
     "express": "^5.1.0"
   }
 }
