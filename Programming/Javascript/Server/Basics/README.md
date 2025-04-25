@@ -1,0 +1,1 @@
+This folder runs node so it is assumed that you already have node installed, to run it.
