@@ -1,0 +1,18 @@
+{
+  "name": "node-express-runtime-storage",
+  "description": "A simple Node.js application to demonstrate node and express with a focus on runtime data storage with no databases.",
+  "author": "Dylan Warrener",
+  "version": "1.0.0",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "runtimeStorage": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}
